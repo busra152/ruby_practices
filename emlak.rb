@@ -3,7 +3,7 @@ class Emlak
     #def initialize args           burda yukardaki değişkenleri args olarak alırız ve bunu döngü ile @tip=tip yerine tek tek yazmak yerine
          #args.each do |k,v|       döngü ile @tip=key  tip=value olmak üzere -value nil olmadığı sürece- kısa yoldan yazabiliriz.
          #instance_variable_set("@#{k}", v) unless v.nil?
-    #end
+    #enda
     def initialize(tip,oda_sayisi,fiyat,il)
         @tip=tip
         @oda_sayisi=oda_sayisi
